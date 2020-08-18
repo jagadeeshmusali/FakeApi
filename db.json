@@ -1,0 +1,21 @@
+{
+    "client": {
+        "entryPointUri": "~/scripts/src/config.js",
+        "cacheBust": "v=20200817114459"
+    },
+    "lmo": {
+        "airlineCodes": "AA,US",
+        "logoClass": "brand-aa-stage",
+        "rowHighlightDuration": "6"
+    },
+    "safe": {
+        "aircraftUriFormat": "https://techopshub.me.stage.aa.com/1.1/#/aircraft/{1}/{0}",
+        "deferralUriFormat": "https://techopshub.me.stage.aa.com/1.1/#/aircraft"
+    },
+    "siteMinder": {
+        "employeeId": "HTTP_EMPLOYEE_ID",
+        "fullName": "HTTP_FULL_NAME",
+        "defaultStation": "HTTP_DEFAULT_STATION",
+        "logoutUri": "https://smlogin.stage.aa.com/login/SMLogout.jsp?originalTarget=https://lmowall.stage.me.aa.com"
+    }
+}
